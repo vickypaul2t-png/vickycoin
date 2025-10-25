@@ -1,0 +1,9 @@
+[project]
+name = "vickycoin"
+description = "VickyCoin SIP-010-like fungible token implemented in Clarity"
+authors = ["Nkechi Okoye"]
+version = "0.1.0"
+
+[contracts.vickycoin]
+path = "contracts/vickycoin.clar"
+depends_on = []
